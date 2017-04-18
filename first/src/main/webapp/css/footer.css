@@ -1,0 +1,7 @@
+@CHARSET "utf-8";
+footer{
+	width:80%;
+	height:110px;
+	border:1px solid black;
+	margin:0px auto;
+}

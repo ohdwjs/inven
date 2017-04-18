@@ -1,0 +1,7 @@
+@CHARSET "utf-8";
+section{
+	width:80%;
+	height:1220px;
+	border:1px solid red;
+	margin:0px auto;
+}

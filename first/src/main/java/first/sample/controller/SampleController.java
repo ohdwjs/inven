@@ -25,6 +25,7 @@ public class SampleController {
     
     @RequestMapping(value="/sample/openSampleBoardList.do")
     public ModelAndView openSampleBoardList(Map<String, Object> commandMap) throws Exception{
+		log.debug("join");
     	ModelAndView mv= new ModelAndView("/sample/boardList");
     	List<Map<String, Object>> list = sampleService.selectBoardList(commandMap);
     	mv.addObject("list", list);
